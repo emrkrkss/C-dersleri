@@ -1,15 +1,13 @@
 #include<stdio.h>
 main(){
-  int sayi1, sayi2, secim;
+  float sayi1, sayi2, secim;
   float sonuc;
   printf("Sayı 1 Giriniz: ");
-  scanf("%d", &sayi1);
+  scanf("%f", &sayi1);
   printf("Sayı 2 Giriniz: ");
-  scanf("%d", &sayi2);
+  scanf("%f", &sayi2);
   printf("Bir Seçim yapınız: ");
-  scanf("%d", &secim);
-  if(sayi1>=sayi2)
-  {
+  scanf("%f", &secim);
     if(secim==1)
     {
       sonuc=sayi1+sayi2;
@@ -32,5 +30,3 @@ main(){
     }
   }
   
-}
-
