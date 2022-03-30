@@ -1,9 +1,15 @@
 #include<stdio.h>
 main(){
-	int a = 0;
+	int sayi;
+	int adet = 0;
+	int top = 0;
+	
 	do{
-		printf("\nIstanbul Aydin Universitesi");
-		a++;
+	    printf("Sayi Giriniz: ");
+	    scanf("%d", &sayi);
+		top = sayi + top;
+		adet++;
 	}
-	while (a<5);
+	while (sayi!=0);
+	printf("Girilen Sayi Adedi %d , Toplam %d ", adet, top);
 }
