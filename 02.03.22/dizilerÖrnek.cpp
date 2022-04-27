@@ -6,7 +6,7 @@ main(){
 		printf("%d. Elemani Giriniz:", i);
 		scanf("%d", &sayilar[i]);
 	}
-	int eb, ek, ek_i=0, eb_i=0;
+	int eb, ek, ek_i=0, eb_i=0; //eb_i En Büyük sayının indexi. ek_i En küçük sayının indexi. 
 	ek=eb=sayilar[0];
 	for(int i=0; i<10;i++)
 	{
